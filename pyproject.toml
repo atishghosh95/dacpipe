@@ -1,0 +1,22 @@
+[project]
+name = "dacpipe"
+version = "0.2.0"
+description = "Pipeline for dual-atom catalyst screening: job handling, volcano, GP learning, microkinetics, constrained MD"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scipy", "scikit-learn", "matplotlib", "mpmath", "joblib"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+dacpipe = "dacpipe.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+filterwarnings = ["ignore"]

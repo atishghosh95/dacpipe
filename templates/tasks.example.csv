@@ -1,0 +1,2 @@
+name,poscar,incar,kpoints
+relax_example,templates/POSCAR,templates/INCAR,templates/KPOINTS

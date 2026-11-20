@@ -1,0 +1,13 @@
+name: dacpipe
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - mpmath
+  - joblib
+  - pytest
+  - pip

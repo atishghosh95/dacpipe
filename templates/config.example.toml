@@ -1,0 +1,10 @@
+scheduler  = "slurm"      # slurm | pbs | lsf | local
+account    = ""
+partition  = ""
+nodes      = 1
+cores      = 32
+walltime   = "04:00:00"
+modules    = []
+vasp_cmd   = "mpirun -np {cores} vasp_std"
+potcar_dir = ""
+pack_max_mb = 50

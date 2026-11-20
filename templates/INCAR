@@ -1,0 +1,7 @@
+ENCUT = 400
+EDIFF = 1e-4
+EDIFFG = -0.05
+ISPIN = 2
+IBRION = 2
+NSW = 200
+LREAL = Auto
